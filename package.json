@@ -1,6 +1,6 @@
 {
   "name": "npm-package-typescript-template",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0",
   "description": "npm package TypeScript template",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",
