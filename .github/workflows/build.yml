@@ -1,5 +1,7 @@
 name: build
 on: [push, pull_request]
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -29,11 +31,21 @@ jobs:
       - name: Check type
         run: npm run lint:tsc
 
-      - name: Build package
-        run: npm run build
-
       - name: Run tests
         run: npm run test:ci
 
       - name: Codecov
         uses: codecov/codecov-action@v3
+
+      - name: Build package
+        run: npm run build
+
+      - name: Generate docs
+        run: npm run docs
+
+      - name: Deploy
+        if: github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs
