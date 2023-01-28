@@ -5,7 +5,8 @@
   "author": "Mark <mark@remarkablemark.org>",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.build.json",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
     "clean": "rm -rf coverage lib",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix",
