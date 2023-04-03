@@ -1,11 +1,11 @@
-name: release-please
+name: release
 on:
   push:
     branches:
       - master
 
 jobs:
-  release-please:
+  release:
     runs-on: ubuntu-latest
     outputs:
       release_created: ${{ steps.release.outputs.release_created }}
