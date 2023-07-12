@@ -12,7 +12,7 @@
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc",
-    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:esm": "tsc -p tsconfig.esm.json",
     "build:watch": "tsc --watch",
     "clean": "rm -rf cjs coverage docs esm",
     "docs": "typedoc",
