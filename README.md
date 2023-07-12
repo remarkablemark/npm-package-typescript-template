@@ -10,7 +10,7 @@ npm package TypeScript template.
 ## Quick Start
 
 ```ts
-import 'npm-package-typescript-template';
+import { name } from 'npm-package-typescript-template';
 ```
 
 ## Installation
@@ -30,7 +30,7 @@ yarn add npm-package-typescript-template
 ## Usage
 
 ```ts
-import 'npm-package-typescript-template';
+import { name } from 'npm-package-typescript-template';
 ```
 
 ## Release

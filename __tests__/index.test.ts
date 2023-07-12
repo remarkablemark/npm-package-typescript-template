@@ -1,5 +1,5 @@
-import * as index from '../src/index';
+import { name } from '../src/index';
 
-it('exports object', () => {
-  expect(index).toEqual({});
+it('exports name', () => {
+  expect(name).toBe('npm-package-typescript-template');
 });

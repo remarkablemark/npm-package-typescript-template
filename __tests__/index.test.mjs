@@ -2,10 +2,10 @@ import { describe, it } from 'node:test';
 
 import assert from 'assert';
 
-import * as index from '../esm/index.js';
+import { name } from '../esm/index.js';
 
 describe('index', () => {
-  it('exports object', () => {
-    assert.strictEqual(typeof index, 'object');
+  it('exports name', () => {
+    assert.strictEqual(name, 'npm-package-typescript-template');
   });
 });
