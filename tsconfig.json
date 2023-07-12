@@ -10,6 +10,5 @@
     "strict": true,
     "outDir": "cjs"
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "src/**/*.test.ts"]
+  "include": ["src"]
 }

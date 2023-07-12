@@ -2,7 +2,7 @@ import { describe, it } from 'node:test';
 
 import assert from 'assert';
 
-import * as index from './index.mjs';
+import * as index from '../esm/index.js';
 
 describe('index', () => {
   it('exports object', () => {
