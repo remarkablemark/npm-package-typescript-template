@@ -4,9 +4,9 @@
   "description": "npm package TypeScript template",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "cjs/index.js",
-  "module": "esm/index.mjs",
+  "module": "esm/index.js",
   "exports": {
-    "import": "./esm/index.mjs",
+    "import": "./esm/index.js",
     "require": "./cjs/index.js"
   },
   "scripts": {
