@@ -16,6 +16,7 @@
     "build:watch": "tsc --watch",
     "clean": "rm -rf cjs coverage docs esm",
     "docs": "typedoc",
+    "docs:watch": "npm run docs -- --watch",
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
     "lint:fix": "npm run lint -- --fix",
     "lint:tsc": "tsc --noEmit",
