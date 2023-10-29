@@ -6,9 +6,8 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "outDir": "cjs"
+    "outDir": "lib"
   },
   "include": ["src"]
 }
