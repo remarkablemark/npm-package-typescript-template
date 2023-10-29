@@ -60,7 +60,8 @@
   },
   "files": [
     "cjs/",
-    "esm/"
+    "esm/",
+    "src/"
   ],
   "license": "MIT"
 }
