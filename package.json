@@ -4,13 +4,7 @@
   "description": "npm package TypeScript template",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "./lib/index.js",
-  "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "exports": {
-    "types": "./lib/index.d.ts",
-    "import": "./lib/index.js",
-    "require": "./lib/index.js"
-  },
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",
