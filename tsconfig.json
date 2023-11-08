@@ -7,7 +7,7 @@
     "declarationMap": true,
     "sourceMap": true,
     "strict": true,
-    "outDir": "lib"
+    "outDir": "cjs"
   },
   "include": ["src"]
 }
