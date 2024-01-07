@@ -4,7 +4,6 @@
   "description": "npm package TypeScript template",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "./cjs/index.js",
-  "types": "./cjs/index.d.ts",
   "scripts": {
     "build": "npm run build:cjs && npm run build:umd",
     "build:cjs": "tsc",
