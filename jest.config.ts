@@ -16,6 +16,10 @@ const config: Config = {
       ? [['github-actions', { silent: false }], 'summary']
       : undefined,
   testEnvironment: 'node',
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname',
+  ],
 };
 
 export default config;
