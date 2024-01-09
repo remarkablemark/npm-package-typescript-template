@@ -13,7 +13,7 @@ npm-package-typescript-template
 import { name } from 'npm-package-typescript-template';
 ```
 
-## Installation
+## Install
 
 [NPM](https://www.npmjs.com/package/npm-package-typescript-template):
 
