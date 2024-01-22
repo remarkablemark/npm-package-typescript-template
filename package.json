@@ -2,7 +2,7 @@
   "name": "npm-package-typescript-template",
   "version": "1.0.0-alpha",
   "description": "npm-package-typescript-template",
-  "author": "Mark <mark@remarkablemark.org>",
+  "author": "Mark <mark@remarkablemark.org> (https://remarkablemark.org)",
   "main": "./cjs/index.js",
   "scripts": {
     "build": "npm run build:cjs && npm run build:umd",
