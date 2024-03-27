@@ -52,7 +52,7 @@
     "lint-staged": "15.2.2",
     "pinst": "3.0.0",
     "prettier": "3.2.5",
-    "rollup": "4.13.0",
+    "rollup": "4.13.1",
     "ts-jest": "29.1.2",
     "typedoc": "0.25.12",
     "typescript": "5.4.3"
