@@ -20,7 +20,7 @@
     "prepublishOnly": "npm run lint && npm run lint:tsc && npm run test:ci && npm run test:esm && npm run clean && npm run build",
     "test": "jest --watch",
     "test:ci": "CI=true jest --ci --colors --coverage",
-    "test:esm": "npm run build:cjs && node --test __tests__"
+    "test:esm": "npm run build:cjs && node --test"
   },
   "repository": {
     "type": "git",
