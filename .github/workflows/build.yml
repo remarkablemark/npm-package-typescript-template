@@ -7,7 +7,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,6 +39,9 @@ jobs:
 
       - name: Build package
         run: npm run build
+
+      - name: Lint package
+        run: npm run lint:package
 
       - name: Generate docs
         run: npm run docs
