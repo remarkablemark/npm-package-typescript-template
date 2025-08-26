@@ -1,6 +1,6 @@
 # npm-package-typescript-template
 
-[![NPM](https://nodei.co/npm/npm-package-typescript-template.png)](https://nodei.co/npm/npm-package-typescript-template/)
+[![NPM](https://nodei.co/npm/npm-package-typescript-template.svg)](https://nodei.co/npm/npm-package-typescript-template/)
 
 [![NPM version](https://img.shields.io/npm/v/npm-package-typescript-template.svg)](https://www.npmjs.com/package/npm-package-typescript-template)
 [![build](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml)
