@@ -53,7 +53,7 @@
     "jest-watch-typeahead": "3.0.1",
     "lint-staged": "16.2.7",
     "prettier": "3.7.4",
-    "publint": "0.3.15",
+    "publint": "0.3.16",
     "rollup": "4.53.3",
     "ts-jest": "29.4.6",
     "ts-node": "10.9.2",
