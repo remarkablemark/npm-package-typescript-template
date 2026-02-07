@@ -15,7 +15,7 @@ export default defineConfig([
   includeIgnoreFile(gitignorePath),
 
   {
-    files: ['**/*.{js,mjs,cjs,ts,tsx,mts,cts}'],
+    files: ['**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}'],
 
     plugins: {
       'simple-import-sort': simpleImportSort,
@@ -24,12 +24,22 @@ export default defineConfig([
       tsdoc,
     },
 
-    extends: ['eslint/recommended'],
+    extends: [
+      eslint.configs.recommended,
+      tseslint.configs.recommended,
+      tseslint.configs.recommendedTypeChecked,
+      tseslint.configs.strictTypeChecked,
+      tseslint.configs.stylisticTypeChecked,
+    ],
 
     languageOptions: {
       globals: {
         ...globals.node,
-        ...globals.jest,
+        ...globals.vitest,
+      },
+      parserOptions: {
+        project: ['tsconfig.build.json', 'tsconfig.test.json'],
+        tsconfigRootDir: import.meta.dirname,
       },
     },
 
@@ -44,6 +54,4 @@ export default defineConfig([
       'tsdoc/syntax': 'error',
     },
   },
-
-  tseslint.configs.recommended,
 ]);
