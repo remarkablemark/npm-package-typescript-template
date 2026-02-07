@@ -20,7 +20,6 @@
   },
   "scripts": {
     "build": "vite build",
-    "build:watch": "npm run build -- --watch",
     "clean": "rm -rf coverage dist docs",
     "docs": "typedoc",
     "docs:watch": "npm run docs -- --watch",
@@ -29,7 +28,7 @@
     "lint:package": "publint",
     "lint:tsc": "tsc",
     "prepare": "husky",
-    "prepublishOnly": "npm run lint && npm run lint:tsc && npm run clean && npm run build && npm run test:ci",
+    "prepublishOnly": "npm run build && npm run lint && npm run lint:tsc && npm run test:ci",
     "test": "vitest run",
     "test:ci": "CI=true npm test -- --color",
     "test:watch": "vitest --coverage.enabled=false"
