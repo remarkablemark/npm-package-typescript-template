@@ -1,4 +1,4 @@
-import { name } from '../cjs/index.js';
+import { name } from '../dist/index.mjs';
 
 describe('index', () => {
   it('exports name', () => {

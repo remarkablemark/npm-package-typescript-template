@@ -38,7 +38,7 @@ export default defineConfig([
         ...globals.vitest,
       },
       parserOptions: {
-        project: ['tsconfig.build.json', 'tsconfig.test.json'],
+        project: ['tsconfig.json'],
         tsconfigRootDir: import.meta.dirname,
       },
     },

@@ -1,7 +1,16 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.build.json" },
-    { "path": "./tsconfig.test.json" }
-  ]
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2020"],
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "types": ["vitest/globals"],
+    "noEmit": true,
+    "allowJs": true
+  },
+  "include": ["__tests__", "src", "*.mjs", "*.mts", "*.ts"]
 }
