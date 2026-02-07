@@ -4,6 +4,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/npm-package-typescript-template.svg)](https://www.npmjs.com/package/npm-package-typescript-template)
 [![build](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/npm-package-typescript-template/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/remarkablemark/npm-package-typescript-template/graph/badge.svg?token=B0W2IQZ66A)](https://codecov.io/gh/remarkablemark/npm-package-typescript-template)
 
 npm-package-typescript-template
 
