@@ -67,5 +67,11 @@
     "src/",
     "umd/"
   ],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/remarkablemark"
+    }
+  ],
   "license": "MIT"
 }
