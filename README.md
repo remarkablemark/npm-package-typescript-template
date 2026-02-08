@@ -51,7 +51,7 @@ const { name } = require('npm-package-typescript-template');
 UMD:
 
 ```html
-<script src="https://unpkg.com/npm-package-typescript-template@latest/umd/npm-package-typescript-template.min.js"></script>
+<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.js"></script>
 <script>
   const { name } = window['npm-package-typescript-template'];
 </script>
