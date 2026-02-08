@@ -31,7 +31,7 @@ yarn add npm-package-typescript-template
 [CDN](https://unpkg.com/browse/npm-package-typescript-template/):
 
 ```html
-<script src="https://unpkg.com/npm-package-typescript-template@latest/umd/npm-package-typescript-template.min.js"></script>
+<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.js"></script>
 ```
 
 ## Usage
