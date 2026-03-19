@@ -9,8 +9,7 @@
     "sourceMap": true,
     "strict": true,
     "types": ["vitest/globals"],
-    "noEmit": true,
-    "allowJs": true
+    "noEmit": true
   },
   "include": ["__tests__", "src", "*.mjs", "*.mts", "*.ts"]
 }
