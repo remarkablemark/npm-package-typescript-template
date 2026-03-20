@@ -22,12 +22,6 @@ import { name } from 'npm-package-typescript-template';
 npm install npm-package-typescript-template
 ```
 
-[Yarn](https://yarnpkg.com/package/npm-package-typescript-template):
-
-```sh
-yarn add npm-package-typescript-template
-```
-
 [CDN](https://unpkg.com/browse/npm-package-typescript-template/):
 
 ```html
