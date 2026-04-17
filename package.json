@@ -60,7 +60,7 @@
     "prettier": "3.8.3",
     "publint": "0.3.18",
     "typedoc": "0.28.19",
-    "typescript": "5.9.3",
+    "typescript": "6.0.3",
     "typescript-eslint": "8.58.2",
     "vite": "8.0.8",
     "vite-plugin-dts": "4.5.4",
