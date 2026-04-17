@@ -44,6 +44,7 @@ Single-test examples:
 - Tests use Vitest globals (do not import `vitest`)
 - Enforce 100% test coverage
 - Use Conventional Commits: `type(scope): description`
+- Create a PR with `.github/PULL_REQUEST_TEMPLATE.md`
 
 ## Verification
 
