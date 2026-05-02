@@ -29,7 +29,7 @@ export default defineConfig({
   plugins: [
     dts({
       include: ['src'],
-      rollupTypes: true,
+      bundleTypes: true,
       async afterBuild() {
         const outDir = resolve(import.meta.dirname, 'dist');
         await Promise.all(
