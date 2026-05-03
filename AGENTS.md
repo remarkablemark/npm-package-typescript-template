@@ -13,7 +13,7 @@ description: Expert TypeScript engineer for this npm package
 ## Project
 
 - **Tech Stack:**
-  - TypeScript 5 (strict mode)
+  - TypeScript 6 (strict mode)
   - Vite 8 (build tool)
   - Vitest 4 (test runner)
   - Node.js 24
