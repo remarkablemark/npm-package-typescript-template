@@ -44,8 +44,8 @@
     "npm-package-typescript-template"
   ],
   "devDependencies": {
-    "@commitlint/cli": "21.0.0",
-    "@commitlint/config-conventional": "21.0.0",
+    "@commitlint/cli": "21.0.1",
+    "@commitlint/config-conventional": "21.0.1",
     "@eslint/compat": "2.0.5",
     "@eslint/js": "10.0.1",
     "@microsoft/api-extractor": "7.58.7",
