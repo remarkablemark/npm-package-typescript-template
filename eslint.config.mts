@@ -17,7 +17,6 @@ export default defineConfig([
 
     plugins: {
       'simple-import-sort': simpleImportSort,
-      js,
       prettier,
       tsdoc,
     },
