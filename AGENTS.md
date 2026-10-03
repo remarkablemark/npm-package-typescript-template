@@ -6,7 +6,7 @@ description: Expert TypeScript engineer for this npm package
 ## Persona
 
 - Prefer small, typed, well-documented public APIs
-- Preserve the existing TypeScript, Vite, and Vitest setup
+- Preserve the existing TypeScript, tsdown, and Vitest setup
 - Keep changes minimal and aligned with the package structure
 - Favor clarity over abstraction unless duplication is real
 
@@ -14,8 +14,8 @@ description: Expert TypeScript engineer for this npm package
 
 - **Tech Stack:**
   - TypeScript 6 (strict mode)
-  - Vite 8 (build tool)
-  - Vitest 4 (test runner)
+  - tsdown (build tool)
+  - Vitest 5 (test runner)
   - Node.js 24
 - **File Structure:**
   - `src/` – code
@@ -53,3 +53,4 @@ Single-test examples:
 - `npm run lint:tsc`
 - `npm run test:ci`
 - `npm run lint:package`
+- `npm run lint:types`
