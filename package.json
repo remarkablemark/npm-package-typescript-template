@@ -5,7 +5,7 @@
   "author": "Mark <mark@remarkablemark.org> (https://remarkablemark.org)",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "exports": {
     ".": {
       "import": {
@@ -19,7 +19,7 @@
     }
   },
   "scripts": {
-    "build": "vite build",
+    "build": "tsdown",
     "clean": "rm -rf coverage dist docs",
     "docs": "typedoc",
     "docs:watch": "npm run docs -- --watch",
@@ -59,11 +59,10 @@
     "lint-staged": "17.6.0",
     "prettier": "3.9.9",
     "publint": "0.3.25",
+    "tsdown": "0.23.0",
     "typedoc": "0.28.20",
     "typescript": "6.0.3",
     "typescript-eslint": "8.71.0",
-    "vite": "8.3.2",
-    "vite-plugin-dts": "5.1.2",
     "vitest": "5.0.3"
   },
   "files": [
