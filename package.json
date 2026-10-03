@@ -27,6 +27,7 @@
     "lint:fix": "npm run lint -- --fix",
     "lint:package": "publint",
     "lint:tsc": "tsc",
+    "lint:types": "npx @arethetypeswrong/cli --pack",
     "prepare": "husky",
     "prepublishOnly": "npm run build && npm run lint && npm run lint:tsc && npm run test:ci",
     "test": "vitest run",
