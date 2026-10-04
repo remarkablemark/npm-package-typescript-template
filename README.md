@@ -25,7 +25,7 @@ npm install npm-package-typescript-template
 [CDN](https://unpkg.com/browse/npm-package-typescript-template/):
 
 ```html
-<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.js"></script>
+<script src="https://unpkg.com/npm-package-typescript-template@latest/dist/index.umd.min.js"></script>
 ```
 
 ## Usage

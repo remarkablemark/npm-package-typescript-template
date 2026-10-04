@@ -1,7 +1,22 @@
-import { defineConfig } from 'tsdown';
+import { defineConfig, type UserConfig } from 'tsdown';
 
-export default defineConfig({
-  format: ['esm', 'cjs', 'umd'],
-  sourcemap: true,
+const config = {
   globalName: 'npm-package-typescript-template',
-});
+  sourcemap: true,
+} satisfies UserConfig;
+
+export default defineConfig([
+  {
+    ...config,
+    format: ['esm', 'cjs', 'umd'],
+  },
+
+  {
+    ...config,
+    format: 'umd',
+    minify: true,
+    outputOptions: {
+      entryFileNames: '[name].umd.min.js',
+    },
+  },
+]);
