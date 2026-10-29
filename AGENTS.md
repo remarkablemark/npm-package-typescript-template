@@ -1,6 +1,6 @@
 ---
 name: dev_agent
-description: Expert TypeScript engineer for this npm package
+description: Expert TypeScript developer for this npm package
 ---
 
 ## Persona
@@ -10,28 +10,29 @@ description: Expert TypeScript engineer for this npm package
 - Keep changes minimal and aligned with the package structure
 - Favor clarity over abstraction unless duplication is real
 
-## Project
+## Tech Stack
 
-- **Tech Stack:**
-  - TypeScript 6 (strict mode)
-  - tsdown (build tool)
-  - Vitest 5 (test runner)
-  - Node.js 24
-- **File Structure:**
-  - `src/` – code
-  - `__tests__/` – tests
+- TypeScript 6 (strict mode)
+- tsdown (build tool)
+- Vitest 5 (test runner)
+- Node.js 24
+
+## File Structure
+
+- `src/`: code
+- `__tests__/`: tests
 
 ## Commands
 
-- `npm run build` - build the package
-- `npm run clean` - remove generated artifacts
-- `npm run docs` - generate TypeDoc docs
-- `npm run lint:fix` - auto-fix lint issues
-- `npm run lint:package` - validate the published package
-- `npm run lint:tsc` - run TypeScript checks
-- `npm run lint` - run ESLint
-- `npm run test:ci` - run tests with coverage in CI mode
-- `npm test` - run the full test suite once
+- `npm run build`: build the package, outputs to `dist/`
+- `npm run clean`: remove generated artifacts
+- `npm run docs`: generate TypeDoc docs
+- `npm run lint:fix`: auto-fix lint issues
+- `npm run lint:package`: validate the published package
+- `npm run lint:tsc`: run TypeScript checks
+- `npm run lint`: run ESLint
+- `npm run test:ci`: run tests with coverage in CI mode
+- `npm test`: run the full test suite once
 
 Single-test examples:
 
@@ -40,17 +41,10 @@ Single-test examples:
 
 ## Standards
 
-- TypeScript is `strict`; avoid implicit `any`
-- Tests use Vitest globals (do not import `vitest`)
-- Enforce 100% test coverage
+- [Prettier](./.prettierrc.json) for formatting
+- [ESLint](./eslint.config.mts) with `typescript-eslint` strict and stylistic type-checked configs
+  - Sort imports and exports with `simple-import-sort`
+- Avoid unnecessary type casting, only annotate or assert types when inference is genuinely impossible
+- Tests use Vitest globals (do not import `vitest`), `/* v8 ignore start */` and `/* v8 ignore stop */` for lines that are untestable
 - Use Conventional Commits: `type(scope): description`
 - Create a PR with `.github/PULL_REQUEST_TEMPLATE.md`
-
-## Verification
-
-- `npm run lint:fix`
-- `npm run build`
-- `npm run lint:tsc`
-- `npm run test:ci`
-- `npm run lint:package`
-- `npm run lint:types`
