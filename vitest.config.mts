@@ -4,6 +4,7 @@ export default defineConfig({
   test: {
     globals: true,
     coverage: {
+      enabled: true,
       include: ['src/**/*.ts'],
       thresholds: {
         100: true,

@@ -23,7 +23,7 @@ jobs:
       - name: Build package
         run: npm run build
 
-      - name: Run ESLint
+      - name: Lint codebase
         run: npm run lint
 
       - name: Type check

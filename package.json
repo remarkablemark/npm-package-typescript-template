@@ -31,8 +31,8 @@
     "prepare": "husky",
     "prepublishOnly": "npm run build && npm run lint && npm run lint:tsc && npm run test:ci",
     "test": "vitest run",
-    "test:ci": "CI=true npm test -- --color --coverage",
-    "test:watch": "vitest --coverage.enabled=false"
+    "test:ci": "CI=true npm test",
+    "test:watch": "vitest"
   },
   "repository": {
     "type": "git",
